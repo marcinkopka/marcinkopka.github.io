@@ -1,0 +1,171 @@
+body {
+  padding-top: 56px;
+}
+
+#page-wrapper {
+  background-color: #fff;
+}
+
+h1 {
+  font-family: latoregular;
+  font-size: 3rem;
+}
+
+h2 {
+  font-family: latoregular;
+  font-size: 2.2rem;
+}
+
+h3 {
+  font-family: latoregular;
+  font-size: 1.5rem;
+}
+
+a:link, a:visited {
+  color: #333399;
+  text-shadow: none;
+}
+
+a:hover, a:active {
+  color: #264d00;
+}
+
+#main-header {
+  background-color: #808080;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 calc(100% - 3vw));
+}
+
+#my-picture {
+  border-radius: 50%;
+  box-shadow: 1px 1px 20px 2px #f2f2f2;
+}
+
+#main-header h1 {
+  text-shadow: 2px 2px #000;
+}
+
+.shadow-1 {
+  text-shadow: 1px 1px #000;
+}
+
+#about, #project-7, #project-5, #project-8, #project-4, #main-footer {
+  background-color: #fff;
+}
+
+#about p, #education p, #main-footer p {
+  text-align: justify;
+  font-size: 1.2rem;
+}
+
+#education, #project-6, #project-3, #project-2, #project-9 {
+  background-color: #808080;
+  clip-path: polygon(0 calc(0% + 3vw), 100% 0, 100% 100%, 0 calc(100% - 3vw));
+}
+
+#education ul {
+  font-size: 1.2rem;
+  list-style-type: none;
+  padding-inline-start: 20px;
+}
+
+#education i {
+  padding-right: 20px;
+  color: #0c0;
+}
+
+.btn-lnk button {
+  width: 220px;
+  padding: 10px 15px;
+  background-color: #446600;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+}
+
+.btn-lnk button:focus {
+  outline: none;
+}
+
+#social-links a:link, .btn-lnk a:link {
+  text-decoration: none;
+}
+
+#project-7 .btn-lnk button, #project-5 .btn-lnk button, #project-8 .btn-lnk button, #project-4 .btn-lnk button {
+  border: 2px solid #fff;
+  box-shadow: 3px 3px 8px 1px #808080;
+}
+
+#project-7 .btn-lnk button:hover, #project-5 .btn-lnk button:hover, #project-8 .btn-lnk button:hover, #project-4 .btn-lnk button:hover {
+  background-color: #334d00;
+  border: 2px solid #334d00;
+}
+
+#project-6 .btn-lnk button, #project-3 .btn-lnk button, #project-2 .btn-lnk button, #project-9 .btn-lnk button {
+  border: 3px solid #808080;
+  box-shadow: 1px 1px 8px 1px #000;
+}
+
+#project-6 .btn-lnk button:hover, #project-3 .btn-lnk button:hover, #project-2 .btn-lnk button:hover, #project-9 .btn-lnk button:hover {
+  background-color: #334d00;
+  border: 3px solid #334d00;
+}
+
+.tech-pict {
+  height: 80px;
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.nav-link:hover {
+  color: #007bff !important;
+}
+
+.dropdown-item:hover {
+  background-color: #000;
+  color: #007bff !important;
+}
+
+.active {
+  color: #0c0 !important;
+  background-color: #000 !important;
+}
+
+nav {
+  font-size: 1.1rem;
+}
+
+nav .dropdown-menu {
+  font-size: 1.1rem;
+}
+
+#social-links a {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.nav-pict {
+  height: 40px;
+  border: 2px solid #000;
+}
+
+.nav-pict:hover {
+  border: 4px solid #000;
+}
+
+#email {
+  font-size: 0;
+}
+
+#email span {
+  font-size: 1.5rem;
+}
+
+#excel-pict, .footer-pict {
+  height: 100px;
+}
+
+#excel-pict:hover {
+  border: 5px solid #808080;
+}
